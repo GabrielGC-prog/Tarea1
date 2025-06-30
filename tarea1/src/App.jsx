@@ -1,7 +1,7 @@
 import "./App.css";
-import { Contador } from "./components/Contador";
-import { InputControlado } from "./components/InputControlado";
-import { InVisible } from "./components/InVisible";
+import { Contador } from "./Contador";
+import { InputControlado } from "./InputControlado";
+import { InVisible } from "./InVisible";
 
 function App() {
   return (
