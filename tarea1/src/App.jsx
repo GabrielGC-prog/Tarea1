@@ -8,6 +8,10 @@ function App() {
     <>
       <h3>Contador</h3>
       <Contador />
+      <h3>Input Controlado</h3>
+      <InputControlado />
+      <h3>Visible / Invisible</h3>
+      <InVisible />
     </>
   );
 }
