@@ -1,14 +1,14 @@
 import { useState } from "react";
 
-export const Input = () => {
+export const InputControlado = () => {
   const [texto, setTexto] = useState("");
-  function handleTexto(event) {
+  const handleTexto = (event) => {
     setTexto(event.target.value);
-  }
+  };
   return (
     <div>
-      <p>Input controlado {Input}</p>
-      <imput onChange={handleTexto} type="text" />
+      <p>Input controlado {InputControlado}</p>
+      <input onChange={handleTexto} type="text" />
       <p>Texto actual: {texto}</p>
     </div>
   );

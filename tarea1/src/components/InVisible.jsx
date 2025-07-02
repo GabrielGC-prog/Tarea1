@@ -7,7 +7,7 @@ export const InVisible = () => {
   };
   return (
     <>
-      <h2>Input controlado {}</h2>
+      <p>InVisible {}</p>
       <button onClick={handleVisible}>{visible ? "Ocultar" : "Mostrar"}</button>
       {visible && <h2>Visible</h2>}
     </>
